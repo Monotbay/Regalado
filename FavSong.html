@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite song</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows:1fr 3fr 1fr ;
+        }
+
+    .header{
+        background-color: aqua;
+        font-size: 80px;
+        text-align: center;
+        border:1px solid black;
+        grid-column: span 3;
+
+    }
+    .nav{
+        background-color: yellow;
+        font-size: 30px;
+        text-align: center;
+        border:1px solid black;
+
+    }
+    .menu{
+        background-color: lightcoral;
+        font-size: 20px;
+        text-align: center;
+        border:1px solid black;
+        grid-column: span 2;
+
+    }
+   
+    .Footer{
+        background-color: red;
+        font-size: 60px;
+        text-align: center;
+        border:1px solid black;
+        grid-column: span 3;
+
+    }
+    @media only screen and (max-width:600px) {
+        .grid-container{
+            display:grid;
+        grid-template-columns:1fr 3fr ;
+        grid-template-rows:1fr 3fr  1fr ;
+        }
+
+    .header{
+        grid-column: span 2;
+    }
+    .menu{
+        grid-column:span 1;
+    }
+    .Footer{
+        grid-column: span 2;
+    }
+}
+@media only screen and (max-width:300px) {
+        .grid-container{
+        grid-template-columns: 3fr ;
+        grid-template-rows:1fr 3fr 3fr 1fr ;
+        }
+    
+    .header{
+        grid-column: span 1;
+    }
+
+    .Footer{
+        grid-column: span 1;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">Undefeatable</div>
+        <div class="nav">
+            <td><a href="Index.html">Back to Index</a></td><br>
+            <td><a href="Aboutme.html">About me</a></td><br>
+            <td><a href="FavGame.html">Favorite Game</a></td><br>
+            <td><a href="Hobbies.html">My Hobbies</a></td><br>
+            <td><a href="Favfoods.html">Favorite foods</a></td><br>
+        </div>
+        <div class="menu">
+            <td><img src="Images/Favsong.jpg" width="150px" height="170px"></td><br>
+    
+            <td>I'm hanging on to the other side<br>
+            I won't give up 'til the end of me<br>
+            Go<br>
+            Yeah<br>
+            Welcome to the mind of a different kind<br>
+            Where we've been growing slowly<br>
+            Think I'm on 11, but I'm on a 9<br>
+            Guess you don't really know me<br>
+            Running from the past is a losing game<br>
+            It never brings you glory<br>
+            Been down this road before<br>
+            Already know this story<br>
+            Face your fear<br>
+            Face your fear<br>
+            It's time to face your fear<br>
+            'Cause when your time has come and gone<br>
+            I'll be the one to carry on (carry on)<br>
+            And you can throw me to the wolves (throw me to the wolves)<br>
+            'Cause I am undefeatable<br>
+            I'm hanging on to the other side<br>
+            I won't give up 'til the end of me<br>
+            I'm what you get when the stars collide<br>
+            Now face it, you're just an enemy<br>
+            Whoa, whoa<br>
+            You're crossing the line<br>
+            Whoa, whoa<br>
+            Now we've run out of time<br>
+            Whoa, whoa<br>
+            I'll take what is mine<br>
+            Go<br>
+            And when the story ends<br>
+            It becomes a part of me<br>
+            I'll give it what it takes<br>
+            I'll find another way<br>
+            I used to never know<br>
+            But now it's crystal clear<br>
+            This feeling's just a ghost<br>
+            It's time to face your fear<br>
+            'Cause when your time has come and gone<br>
+            I'll be the one to carry on (carry on)<br>
+            And you can throw me to the wolves (throw me to the wolves)<br>
+            'Cause I am undefeatable<br>
+            I'm hanging on to the other side<br>
+            I won't give up 'til the end of me<br>
+            I'm what you get when the stars collide<br>
+            Now face it, you're just an enemy<br>
+            I'm hanging on to the other side (to the other side)<br>
+            I won't give up 'til the end of me ('til the end of me)<br>
+            I'm what you get when the stars collide (when the stars collide)<br>
+            Now face it, you're just an enemy<br>
+            Welcome to the mind of a different kind<br>
+            We've been growing slowly<br>
+            Think I'm on 11, but I'm on a 9<br>
+            Guess you don't really know me<br>
+            Running from the past is a losing game<br>
+            It never brings you glory<br>
+            Been down this road before<br>
+            Already know this story <br>
+        </td>
+        </div>
+    
+        <div class="Footer">Copyright 2023 Monotbay industries</div>
+        
+    </div>
+</body>
+</html>
